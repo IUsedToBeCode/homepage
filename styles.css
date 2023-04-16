@@ -46,6 +46,7 @@ a {
 }
 .middle-container{
     background-color: #BFDCE5;
+    padding-bottom: 30px;
 }
 
 .bottom-container {
@@ -97,7 +98,7 @@ a {
   -moz-border-radius: 8;
   border-radius: 8px;
   text-shadow: 1px 1px 3px #666666;
-  font-family: Arial;
+  font-family: 'Chivo Mono';
   color: #f5e4eb;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -113,6 +114,16 @@ a {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+.footer-link{
+    text-decoration: none;
+    font-family: 'Montserrat' , sans-serif;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
 .copyright{
     color: #EAF6F6;
+    margin: 10px 20px;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 0.75rem;
 }
